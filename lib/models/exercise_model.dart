@@ -1,4 +1,5 @@
 class ExerciseModel {
+  // deneme
   final String id;
   final String name;
   final String bodyPart; // e.g., "abs", "legs", "arms", "chest", "back"
