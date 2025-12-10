@@ -74,7 +74,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                 ),
                 const SizedBox(height: 24),
                 const Text(
-                  'GYMBUDDY',
+                  'GYM BUDDY',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,

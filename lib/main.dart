@@ -7,12 +7,8 @@ import 'screens/home/main_navigation_screen.dart';
 import 'providers/auth_provider.dart';
 import 'firebase_options.dart';
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
-
-  
   // Initialize Firebase
   bool firebaseInitialized = false;
   try {

@@ -40,7 +40,7 @@ class _SupplementsTabState extends State<SupplementsTab> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Supplementation Recommendations'),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.green,
       ),
       body: Column(
         children: [

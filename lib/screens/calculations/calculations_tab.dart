@@ -13,7 +13,7 @@ class CalculationsTab extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Advanced Calculation Hub'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.orange,
       ),
       body: Consumer(
         builder: (context, ref, child) {
