@@ -126,7 +126,7 @@ class _CalorieEstimationScreenState extends State<CalorieEstimationScreen> {
                     ),
                     const SizedBox(height: 16),
                     DropdownButtonFormField<String>(
-                      value: _activityType,
+                      initialValue: _activityType,
                       decoration: const InputDecoration(
                         labelText: 'Activity Type',
                         border: OutlineInputBorder(),

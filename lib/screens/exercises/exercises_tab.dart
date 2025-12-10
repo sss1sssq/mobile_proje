@@ -40,7 +40,7 @@ class _ExercisesTabState extends State<ExercisesTab> {
             padding: const EdgeInsets.all(16),
             color: Colors.grey[200],
             child: DropdownButtonFormField<String>(
-              value: _selectedBodyPart,
+              initialValue: _selectedBodyPart,
               decoration: const InputDecoration(
                 labelText: 'Filter by Body Part',
                 border: OutlineInputBorder(),

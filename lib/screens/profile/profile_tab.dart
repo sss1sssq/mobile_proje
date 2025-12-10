@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../providers/auth_provider.dart';
-import '../../services/auth_service.dart';
 import '../../services/calculation_service.dart';
 import '../auth/login_screen.dart';
 import 'profile_edit_screen.dart';

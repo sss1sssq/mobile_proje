@@ -38,9 +38,9 @@ dependencies:
   flutter_riverpod: ^2.5.1
   
   # Firebase
-  firebase_core: ^3.0.0
-  firebase_auth: ^5.3.1
-  cloud_firestore: ^5.4.4
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
   
   # Local Database
   hive: ^2.2.3

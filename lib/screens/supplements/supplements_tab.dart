@@ -50,7 +50,7 @@ class _SupplementsTabState extends State<SupplementsTab> {
             child: Column(
               children: [
                 DropdownButtonFormField<String>(
-                  value: _selectedCategory,
+                  initialValue: _selectedCategory,
                   decoration: const InputDecoration(
                     labelText: 'Filter by Category',
                     border: OutlineInputBorder(),
@@ -85,7 +85,7 @@ class _SupplementsTabState extends State<SupplementsTab> {
                 ),
                 const SizedBox(height: 12),
                 DropdownButtonFormField<String>(
-                  value: _selectedGoal,
+                  initialValue: _selectedGoal,
                   decoration: const InputDecoration(
                     labelText: 'Filter by Goal',
                     border: OutlineInputBorder(),

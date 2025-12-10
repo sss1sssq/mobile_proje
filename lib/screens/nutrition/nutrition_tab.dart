@@ -78,7 +78,7 @@ class _NutritionTabState extends State<NutritionTab> {
               children: [
                 Expanded(
                   child: DropdownButtonFormField<String>(
-                    value: _selectedMealType,
+                    initialValue: _selectedMealType,
                     decoration: const InputDecoration(
                       labelText: 'Filter by Meal Type',
                       border: OutlineInputBorder(),

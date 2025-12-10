@@ -238,7 +238,7 @@ class _CardioStopwatchScreenState
                     ),
                     const SizedBox(height: 16),
                     DropdownButtonFormField<String>(
-                      value: _activityType,
+                      initialValue: _activityType,
                       decoration: const InputDecoration(
                         labelText: 'Activity Type',
                         border: OutlineInputBorder(),

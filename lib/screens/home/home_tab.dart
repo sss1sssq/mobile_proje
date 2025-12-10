@@ -9,12 +9,12 @@ import '../supplements/supplements_tab.dart';
 
 
 class HomeTab extends StatelessWidget {
-  const HomeTab({Key? key}) : super(key: key);
+  const HomeTab({super.key});
 
   @override
   Widget build(BuildContext context) {
 
-    void _logout() {
+    void logout() {
       // Çıkış işlemleri buraya
     }
 
@@ -31,7 +31,7 @@ class HomeTab extends StatelessWidget {
         centerTitle: true,
         actions: [
           TextButton.icon(
-            onPressed: _logout,
+            onPressed: logout,
             icon: const Icon(Icons.logout),
             label: const Text("Log out"),
             style: TextButton.styleFrom(foregroundColor: Colors.black),
